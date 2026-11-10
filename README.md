@@ -21,7 +21,7 @@ the charging time. **EVVO Bisnis** extends the platform to fleet operators and m
 
 | For | Capability |
 | --- | --- |
-| Drivers | Route planning with a battery estimate tuned for tropical driving, charging stations along the route, navigation, station details, community reports |
+| Drivers | Route planning with a battery estimate tuned for tropical driving, automatic charging stops when the battery is low, weather impact on consumption, charging stations along the route, places to spend the charging time, navigation, community reports — try it without an account |
 | Fleet operators | Vehicle and driver management, live fleet tracking, trip history |
 | Merchants | Promotions shown to drivers charging nearby, redemption at the cashier, performance summary |
 | Operations team | Multi-role back office for data quality, moderation and automated data updates |
@@ -66,7 +66,11 @@ the charging time. **EVVO Bisnis** extends the platform to fleet operators and m
 
 - **Route-aware geospatial engine** — finds charging stations that are actually reachable along a route, not just
   near a point.
-- **Energy estimation for local conditions** — conservative battery estimates that account for climate and traffic.
+- **Energy estimation for local conditions** — conservative battery estimates that account for climate, traffic and
+  rain forecast along the route.
+- **Automatic charging-stop planning** — when the battery will not last, the trip is planned through a charging
+  stop with arrival level, charging time and a backup station, and navigation is routed into it.
+- **Places while you charge** — nearby cafés and restaurants with walking distance, so charging time is not idle time.
 - **Automated data pipelines with guard rails** — scheduled updates with quality checks; bad or suspicious data is
   never published automatically and nothing is silently lost.
 - **Safe concurrency** — booking and redemption flows designed so two users can never claim the same resource.
