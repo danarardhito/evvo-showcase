@@ -26,6 +26,42 @@ the charging time. **EVVO Bisnis** extends the platform to fleet operators and m
 | Merchants | Promotions shown to drivers charging nearby, redemption at the cashier, performance summary |
 | Operations team | Multi-role back office for data quality, moderation and automated data updates |
 
+## Screenshots — Drivers
+
+### Try it without an account
+
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="media/driver-stations.jpg" width="190" alt="Charging stations"><br><sub><b>Explore as a guest</b><br>Chargers around you, filtered for your car</sub></td>
+    <td align="center" width="33%"><img src="media/driver-vehicle-catalog.jpg" width="190" alt="Vehicle catalog"><br><sub><b>Pick your EV</b><br>Estimates follow the selected model</sub></td>
+    <td align="center" width="33%"><img src="media/driver-guest-profile.jpg" width="190" alt="Guest profile"><br><sub><b>Free account invitation</b><br>Unlock trip history and saved vehicles</sub></td>
+  </tr>
+</table>
+
+### Plan a trip
+
+<table>
+  <tr>
+    <td align="center" width="25%"><img src="media/driver-route.jpg" width="190" alt="Route plan"><br><sub><b>Route plan</b><br>Jakarta → Bandung, arrival battery and alternatives</sub></td>
+    <td align="center" width="25%"><img src="media/driver-low-battery-route.jpg" width="190" alt="Low battery route"><br><sub><b>Starting at 15%</b><br>The route automatically includes a charging stop</sub></td>
+    <td align="center" width="25%"><img src="media/driver-charging-plan.jpg" width="190" alt="Charging plan"><br><sub><b>Charging plan</b><br>Where to stop, how long to charge, and a backup</sub></td>
+    <td align="center" width="25%"><img src="media/driver-weather.jpg" width="190" alt="Weather impact"><br><sub><b>Weather-aware</b><br>Rain on the route and its effect on battery</sub></td>
+  </tr>
+</table>
+
+### Drive and contribute
+
+<table>
+  <tr>
+    <td align="center" width="25%"><img src="media/driver-navigation-highway.jpg" width="190" alt="Highway navigation"><br><sub><b>Navigation</b><br>Turn-by-turn guidance on toll roads</sub></td>
+    <td align="center" width="25%"><img src="media/driver-navigation-city.jpg" width="190" alt="City navigation"><br><sub><b>City driving</b><br>Chargers stay visible on the map</sub></td>
+    <td align="center" width="25%"><img src="media/driver-station-detail.jpg" width="190" alt="Station detail"><br><sub><b>While you charge</b><br>Cafés & restaurants nearby, with walking distance</sub></td>
+    <td align="center" width="25%"><img src="media/driver-report.jpg" width="190" alt="Community report"><br><sub><b>Community reports</b><br>Drivers share live station conditions</sub></td>
+  </tr>
+</table>
+
+<sub>Android app. Names of nearby businesses are blurred. Map © MapTiler © OpenStreetMap contributors. Weather information from BMKG.</sub>
+
 ## Engineering highlights
 
 - **Route-aware geospatial engine** — finds charging stations that are actually reachable along a route, not just
